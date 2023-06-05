@@ -1,0 +1,122 @@
+.inventory-section {
+    padding-left: 20%;
+}
+
+.home-navbar .menu-items-inventory {
+    flex-direction: row;
+    justify-content: space-around;
+    /* gap: 214px; */
+    background-color: #0B94DA;
+    width: 100%;
+
+    /* border-right: 1px solid #00000066; */
+}
+.home-navbar .menu-items-inventory a{
+    color: rgb(201, 197, 197);
+}
+.nav-link-inventory.active {
+    background-color: #0B94DA !important;
+    color: white !important;
+    font-weight: 700;
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius:5px ; */
+}
+.nav-link1-inventory1 .nav-link.active{
+    background-color: black;
+}
+.home-navbar {
+    width: 100%;
+}
+.vector img{
+    height: 40px;
+}
+
+
+
+@media (min-width: 320px) and (max-width:480px) {
+    .home-navbar .menu-items-inventory a {
+        /* border: 2px solid red; */
+        color: black;
+        /* border: 1px solid  #DEE2EB; */
+        /* width: 100px; */
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+        gap: 8px;
+
+        font-weight: 700;
+        height: 35px;
+        /* padding-right: 3%; */
+        /* opacity: 0.6; */
+        color:  rgb(201, 197, 197);
+    }
+
+    .inventory-section {
+        padding-left: 0px;
+        padding-top:15%;
+    }
+
+    .home-navbar {
+        border: 1px solid #DEE2EB;
+        border-radius: 5px;
+        height: 35px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .home-navbar .menu-items {
+        padding-right: 5%;
+    }
+
+    /* .home-section {
+        padding-top: 5%;
+    } */
+
+    .nav-link-inventory.active {
+        background-color: #0B94DA !important;
+        color: white !important;
+        /* opacity: 0; */
+
+        /* border-top-left-radius: 5px;
+        border-bottom-left-radius:5px ; */
+
+    }
+    /* .nav-link1-inventory.active-svg {
+        fill: #ff0000; 
+      } */
+
+      /* .menu-items-inventory .active img {
+        filter: invert(45%) sepia(90%) saturate(7384%) hue-rotate(139deg) brightness(101%) contrast(107%);
+      } */
+      /* .menu-items-inventory a.active img {
+        filter: invert(39%) sepia(91%) saturate(7193%) hue-rotate(341deg) brightness(99%) contrast(99%);
+      } */
+      .nav-link-inventory.active .vector img {
+        /* filter: invert(100%); */
+        fill: white;
+      }
+       
+
+    .nav-link1-inventory {
+        border-left: 0px solid white !important;
+    }
+
+    .nav-link4.active {
+        background-color: #0B94DA !important;
+        color: white !important;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        width: 100%;
+    }
+
+    /* .menu-items .menu-icon path.active {
+        fill: white !important;
+    } */
+    .vector img{
+        height: 35px;
+    }
+
+
+}
+

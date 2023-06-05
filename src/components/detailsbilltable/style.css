@@ -1,0 +1,58 @@
+.bill-table-details {
+    /* border-bottom: 1px solid rgb(129, 123, 123); */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.bill-table-details thead {
+    background-color: #56648B;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.bill-table-details th,
+.bill-table-details td {
+    /* border-bottom: 1px solid rgb(214, 212, 212); */
+    padding: 8px;
+    /* width: 13%; */
+    font-size: 12px;
+    /* opacity: 0.2; */
+    /* border-right: 1px solid red; */
+}
+
+.bill-table-details th {
+    border-right: 1px solid rgb(170, 164, 164);
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+}
+
+
+
+@media (min-width: 320px) and (max-width:480px) {
+    .bill-section {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    .bill-table-details thead {
+        font-size: 10px;
+    }
+
+    .bill-table-details th,
+    .bill-table-details td {
+        font-size: 6.5px;
+    }
+}

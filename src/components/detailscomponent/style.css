@@ -1,0 +1,247 @@
+.details {
+    height: 48px;
+    width: 100%;
+    background-color: #cdecfc;
+    display: flex;
+}
+
+.details-centered-text {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.details-heading {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.detailsbtn {
+    width: 250px;
+    height: 45px;
+    background-color: #494848;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailsbtnkacha {
+    width: 250px;
+    height: 45px;
+    background-color: #06A2F0;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-section {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    background-color: white;
+    width: 80%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #f3f0f0;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+
+.details-container {
+    display: flex;
+    gap: 30px;
+}
+
+.details-content {
+    margin-left: 10px;
+    background-color: #262B3B1F;
+    width: 98%;
+    height: 61vh;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.input-field-type {
+    border: none;
+    outline: none;
+    width: 300px;
+    background-color: white;
+    padding-left: 20px;
+    /* opacity: 0.6; */
+    height: 35px;
+    border-radius: 5px;
+}
+.left-col{
+    display: flex;
+    justify-content: center;
+}
+.rightcol{
+    display: flex;
+    justify-content: center;
+}
+.search-col{
+    display: flex;
+    justify-content: center;
+    /* width: 55%; */
+}
+.search-row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.adduser-section{
+    text-align: center;
+    padding-top: 20px;
+}
+.adduser img{
+    width: 30px;
+}
+.adduser{
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.balance-title{
+    padding-top: 22px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 50px;
+    padding-left: 35px;
+}
+.type-row{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.amt-row{
+    padding-bottom: 25px;
+}
+.input-field-amount{
+    width: 300px;
+    border: none;
+    height: 35px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 0.8;
+}
+.detail-label{
+    font-size: 20px;
+    font-weight: 600;
+    width: 100px;
+}
+.bal-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    margin-top: 10px;
+}
+.bal-content{
+    width: 200px;
+    background-color: white;
+    border-radius: 25px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+@media (min-width: 320px) and (max-width:480px) {
+    .details-section {
+        bottom: 80px;
+        width: 100%;
+        padding-bottom: 39px;
+        border: none;
+        height: 65px;
+    }
+
+    .details {
+        height: 35px;
+        width: 100%;
+        background-color: #cdecfc;
+        display: flex;
+        margin-top: 5px;
+    }
+
+    .detailsbtn {
+        width: 130px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .detailsbtnkacha {
+        width: 130px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .verify-container {
+        padding-top: 40px;
+    }
+
+    .detailscentered-text {
+        width: 100%;
+    }
+
+    .details-heading {
+        font-size: 18px;
+    }
+    .input-field-type{
+        width: 145px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .input-field-amount{
+        width: 145px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .details-content{
+        width: 95%;
+        border-radius: 10px;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .search-col{
+        width: 50%;
+    }
+    .search-row{
+        width: 89%;
+    }
+    .detail-label{
+        font-size: 15px;
+    }
+    .type-row{
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    .amt-row{
+        padding-bottom: 15px;
+    }
+    .adduser{
+        font-size: 15px;
+    }
+    .balance-title{
+        font-size: 15px;
+    }
+    .bal-content{
+        font-weight: 600;
+        width: 250px;
+    }
+}

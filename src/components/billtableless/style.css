@@ -1,0 +1,11 @@
+.bill-table-container-stock-less {
+    max-height: 200px;
+    /* Adjust the height according to your requirements */
+    overflow-y: auto;
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    .bill-table-container-stock-less {
+        max-height: 280px;
+    }
+}

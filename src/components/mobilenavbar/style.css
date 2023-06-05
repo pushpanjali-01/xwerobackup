@@ -1,0 +1,72 @@
+.mobile-navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #fff;
+    /* border-top: 1px solid #ddd; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 10;
+    /* border-right: 1px solid gray; */
+}
+
+.mobile-navbar .nav-link-mobile {
+    text-decoration: none;
+    display: block;
+}
+
+.mobile-menu {
+    display: block;
+}
+
+.mobile-navbar-section {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.mobile-menu-logo {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+.mobile-menu-logo img {
+    width: 30px;
+}
+
+.mobile-menu {
+    padding-top: 10px;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mobile-menu-logo-inventory {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0px 4px 11px 0px #1D1D1F;
+}
+
+.mobile-menu-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    /* height: 40px; */
+
+}
+.mobile-menu-logo-wrapper-inventory {
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
+
+.mobile-menu-logo-inventory img {
+    width: 20px;
+}

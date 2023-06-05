@@ -1,0 +1,153 @@
+.bill-title {
+    width: 200px;
+    text-align: end;
+    display: flex;
+}
+
+.colon {
+    width: 100px;
+    text-align: center;
+    /* display: flex; */
+}
+
+.bill-divider {
+    height: 1px;
+    background-color: black;
+    margin-left: 5px;
+    margin-bottom: 12px;
+}
+
+.bill-value {
+    width: 350px;
+    text-align: justify;
+}
+
+.bill-heading-pakka {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.line1 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.line2-pakka {
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    line-height: 5px;
+}
+
+.line3 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.bill-footer-right-pakka {
+    font-weight: 600;
+    margin-left: 150px;
+
+}
+
+.title-pakka {
+    width: 100px;
+}
+
+.bill-footer-right-pkka-section {
+    display: flex;
+    justify-content: end;
+    line-height: 13px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.total-bill {
+    display: flex;
+}
+
+.total-label {
+    display: flex;
+    width: 100px;
+    gap: 16px;
+}
+
+.label {
+    width: 50px;
+    text-align: end;
+}
+
+.label-colon {
+    width: 50px;
+    text-align: initial;
+}
+
+.label-grand-total {
+    line-height: 18px;
+    width: 50px;
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    .line1 {
+        font-size: 10px;
+    }
+
+    .line2-pakka {
+        font-size: 12px;
+        line-height: 0px;
+    }
+
+    .line3 {
+        font-size: 8px;
+
+    }
+
+    .bill-title {
+        width: 100px;
+    }
+
+    .bill-footer-right-pkka-section {
+        font-size: 7px;
+        line-height: 0px;
+    }
+
+    .total-label {
+        width: 60px;
+    }
+    .label{
+        width: 30px;
+    }
+    .label-grand-total{
+        line-height: 8px;
+        margin-top: -5px;
+
+    }
+    .label-colon{
+        width: 30px;
+    }
+
+    .colon {
+        width: 50px;
+    }
+
+    .bill-value {
+        width: 50px;
+    }
+
+    .bill-divider {
+        margin-left: 0px;
+    }
+
+    .bill-footer-right-pakka {
+        margin-top: 5px;
+        width: 155px;
+        margin-left: 0px;
+    }
+
+    .total {
+        font-size: 7px;
+        line-height: 5px;
+    }
+
+}

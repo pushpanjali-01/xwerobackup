@@ -1,0 +1,213 @@
+.page-header {
+    float: left;
+    width: 20%;
+    background-color: black;
+    height: 100vh;
+    z-index: 100;
+    position: fixed;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: white;
+    /* gap: 10px; */
+}
+
+.menu {
+    /* padding-left: 10px; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid#FFFFFF66;
+    padding-bottom: 20px;
+}
+
+
+
+.desktop-nav-menus {
+    padding-left: 10%;
+    padding-top: 30px;
+    width: 100%;
+    gap: 12px;
+}
+
+.nav-link.active {
+    background-color: #FFFFFF33;
+    border-radius: 25px;
+    /* width: auto; */
+    color: white;
+    /* width: 100%; */
+}
+
+.nav-link.nav-link .menu {
+    color: white;
+}
+
+
+.nav-link {
+    display: flex;
+    gap: 20px;
+    /* justify-content: center; */
+}
+
+.nav-link-logo {
+    text-align: center;
+}
+
+.nav-link-logo img {
+    width: 60%;
+}
+
+.nav-link-logout {
+    /* text-align: center; */
+    color: white;
+    margin-top: 8%;
+    padding-top: 5%;
+    border-top: 1px solid #FFFFFF66;
+    text-decoration: none;
+    padding-left: 20%;
+    gap: 12px;
+    display: flex;
+}
+
+.menu-img {
+    width: 10%;
+    margin-left: 20px;
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    .page-header {
+        float: none;
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8%;
+        height: 53px;
+    }
+
+    .logout {
+        width: 80%;
+    }
+
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        background: white;
+        height: 100vh;
+        /* left: 33px; */
+        position: absolute;
+        width: 100%;
+        float: left;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80%;
+    }
+
+    .mobile-nav-menus .nav-link-mobile-menu {
+        color: black;
+        height: 80px;
+        text-decoration: none;
+        font-Weight: 500;
+        font-Size: 20px;
+        line-height: 19px;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 30px;
+        padding-left: 20px;
+        border-top: 1px solid rgb(214, 212, 212);
+        border-bottom: 1px solid rgb(214, 212, 212);
+    }
+
+    .profile-image {
+        position: relative;
+        display: inline-block;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 40px;
+        height: 40px;
+        margin-top: -10px;
+    }
+
+    .profile-image img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .header-title {
+        color: white;
+        font-size: 20px;
+        padding-top: 2px;
+    }
+
+    .hamburger-toggle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-link-logout {
+        /* text-align: center; */
+        color: black;
+        /* margin-top: 8%; */
+        /* padding-top: 5%; */
+        text-decoration: none;
+        padding-left: 20%;
+        gap: 12px;
+        display: flex;
+        bottom: 0;
+        position: fixed;
+        /* color: black; */
+        height: 80px;
+        text-decoration: none;
+        font-Weight: 500;
+        font-Size: 20px;
+        line-height: 19px;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 20px;
+        padding-left: 60px;
+        border-top: 1px solid rgb(214, 212, 212);
+        /* border-top-width: 80%; */
+        width: 80%;
+        padding-bottom: 20px;
+        /* border-bottom: 1px solid rgb(214, 212, 212); */
+    }
+
+
+    .mobile-nav-right {
+        display: flex;
+        gap: 20px;
+        align-items: unset;
+    }
+
+    .hamburger img {
+        padding-top: 10px;
+    }
+
+    .colsebtn {
+        display: flex;
+        justify-content: end;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .nav-link-logo img {
+        width: 50%;
+    }
+    .nav-link-mobile-menu.active{
+        background-color: #56648B;
+        color: white;
+    }
+}

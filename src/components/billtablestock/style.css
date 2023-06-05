@@ -1,0 +1,118 @@
+.bill-table-stock {
+    border-bottom: 1px solid rgb(129, 123, 123);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.bill-section-stock {
+    padding-top: 10px;
+}
+
+.bill-table-stock thead {
+    background-color: #56648B;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.bill-table-stock th,
+.bill-table-stock td {
+    border-bottom: 1px solid rgb(214, 212, 212);
+    padding: 8px;
+    width: 13%;
+    font-size: 14px;
+    /* opacity: 0.2; */
+    /* border-right: 1px solid red; */
+}
+
+.bill-table-stock th {
+    border-right: 1px solid rgb(170, 164, 164);
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+}
+
+.check {
+    display: flex;
+    gap: 50px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.checkbox {
+    width: 25px;
+    height: 20px;
+    background-color: black !important;
+}
+
+.checkbox input[type="checkbox"]::before {
+    background-color: red;
+    /* change the color here */
+}
+.bill-table-container-stock {
+    max-height: 200px; /* Adjust the height according to your requirements */
+    overflow-y: auto;
+  }
+  
+  
+@media (min-width: 320px) and (max-width:480px) {
+    .bill-section {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    .bill-table-container {
+        max-height: 250px; /* Adjust the height according to your requirements */
+        overflow-y: auto;
+      }
+    .bill-table-stock thead {
+        font-size: 8px;
+    }
+
+    .check {
+        padding-left: 0px;
+        gap: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    .bill-table-stock th,
+    .bill-table-stock td {
+        font-size: 6.5px;
+    }
+
+    .checkbox {
+        width: 15px;
+        height: 10px;
+        background-color: black !important;
+    }
+    .bill-section-stock{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .bill-table-stock{
+        border: 1px solid rgb(194, 191, 191);
+    }
+    .bill-table-stock th,
+.bill-table-stock td {
+    /* border-bottom: 1px solid rgb(214, 212, 212); */
+    /* padding: 8px; */
+    width: 18%;
+    /* font-size: 14px; */
+    /* opacity: 0.2; */
+    /* border-right: 1px solid red; */
+}
+.bill-table-container-stock{
+    max-height: 280px;
+}
+}

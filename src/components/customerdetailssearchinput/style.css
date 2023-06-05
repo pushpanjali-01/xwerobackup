@@ -1,0 +1,36 @@
+.search-col-input{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    margin-left: 25px;
+    gap: 35px;
+    height: 35px;
+    border-radius:5px ;
+}
+.search-col-input input{
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    opacity: 0.5;
+}
+.placeholder-image{
+    width: 15px;
+}
+
+@media (min-width: 320px) and (max-width:480px){
+    .search-col-input{
+        margin-left: 75px;
+        width: 100%;
+        height: 30px;
+    }
+    .search-col-input input{
+        font-size: 15px;
+    }
+    .placeholder-image{
+        width: 12px;
+    }
+    .search-col-input{
+        gap:15px;
+    }
+}

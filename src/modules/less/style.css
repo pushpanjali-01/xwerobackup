@@ -1,0 +1,46 @@
+.less-stock {
+    height: 48px;
+    width: 100%;
+    background-color: #cdecfc;
+    display: flex;
+}
+
+.centered-text {
+
+    width: 55%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 15px;
+}
+.menu-button{
+    padding-top: 5px;
+    width: 45%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-left: 31%;
+}
+.heading {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.menu-icon-less {
+    background-color:#cdecfc ;
+    border: none;
+    padding-top: 5px;
+
+}
+
+@media (min-width: 320px) and (max-width:480px){
+    .centered-text{
+        width: 100%;
+    }
+    .menu-button{
+        padding-left: 24%;
+    }
+    .heading{
+        font-size: 18px;
+    }
+}

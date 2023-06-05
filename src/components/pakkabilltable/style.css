@@ -1,0 +1,21 @@
+.table-body-pakka tr,td {
+    width: 1%;
+    font-size: 15px;
+    font-weight: 600;
+}
+.table-heaad-pakka tr, th{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (min-width: 320px) and (max-width:480px){
+.table-heaad-pakka tr,th{
+    font-size: 5px;
+    font-weight: bold;
+}
+.table-body-pakka tr,td {
+    font-size: 5px;
+}
+}
+
+

@@ -1,0 +1,137 @@
+.otp-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #C7C7C780;
+}
+
+.input-field-otp {
+    border: none;
+    border-bottom: 2px solid #69ACE3;
+    outline: none;
+    width: 80%;
+}
+
+.otp-input {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.card {
+    background: #FFFFFF;
+    border-radius: 50px;
+    width: 55%;
+    /* height: 60vh; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.otp {
+    display: flex;
+    justify-content: center;
+}
+
+.otp-heading {
+    font-size: 45px;
+    opacity: 0.5;
+    font-weight: 600;
+}
+
+.otp-subheading {
+    font-size: 18px;
+    line-height: 19px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0.8;
+    font-weight: 500;
+}
+
+
+.otp-info {
+    color: #439ECC;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+
+    .otp-page {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        text-align: center;
+        background: white;
+        padding-top: 20%;
+    }
+
+    .otp-subheading {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .otp-input {
+        padding-top: 0px;
+        padding-bottom: 25px;
+    }
+
+    .otp-heading {
+        font-size: 22px;
+        font-weight: 500;
+ 
+    }
+
+    .otp-subheading {
+        font-size: 16px;
+
+    }
+
+    .otp-info {
+        font-size: 18px;
+    }
+
+    .input-field-otp {
+        background-color: transparent;
+    }
+
+    .back-arrow {
+        width: 8px;
+        margin-right: 10px;
+        padding-bottom: 3px;
+    }
+
+    .back-btn button {
+        font-size: 18px;
+        line-height: 19px;
+        color: black;
+        font-weight: 600;
+        border: none;
+        background-color: transparent;
+    }
+
+    .back-btn {
+        padding-top: 20px;
+        padding-left: 15px;
+        /* background-color:#C7C7C780; */
+        height: 8vh;
+    }
+}
+
+@media (min-width: 980px) and (max-width:1920px) {
+    .opt-content {
+        display: none;
+    }
+
+    .back-btn {
+        display: none;
+    }
+
+    .otp-heading {
+        font-size: 35px;
+    }
+}

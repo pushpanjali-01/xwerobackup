@@ -1,0 +1,85 @@
+.verify {
+    height: 48px;
+    width: 100%;
+    background-color: #cdecfc;
+    display: flex;
+}
+
+.verify-centered-text {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.verify-heading {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.verifybtn {
+    width: 250px;
+    height: 45px;
+    background-color: #494848;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verify-section {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    background-color: white;
+    width: 80%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #f3f0f0;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    .verify-section {
+        bottom: 80px;
+        width: 100%;
+        padding-bottom: 39px;
+        border: none;
+    }
+
+    .verify {
+        height: 35px;
+        width: 100%;
+        background-color: #cdecfc;
+        display: flex;
+        margin-top: 5px;
+    }
+
+    .verifybtn {
+        width: 207px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    .verify-container {
+        padding-top: 40px;
+    }
+
+    .verifycentered-text {
+        width: 100%;
+    }
+
+    .verify-heading {
+        font-size: 18px;
+    }
+}

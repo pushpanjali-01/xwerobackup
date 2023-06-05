@@ -1,0 +1,158 @@
+.kachabill-section {
+    width: 98%;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bill-left-col {
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.bill-left-col1 {
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bill-right-section {
+    display: flex;
+    justify-content: right;
+}
+.bill-right-col{
+    text-align: center;
+    line-height: 7px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.bill-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.divider1{
+    height: 1px;
+    background-color:black;
+}
+.divider2{
+    height: 1px;
+    background-color:black;
+    margin-top: 2px;
+}
+.bill-footer-left{
+    line-height: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.bill-footer-left-section{
+    margin-top: 10px;
+}
+
+.bill-footer-right-section{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+.bill-footer-right{
+    line-height: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+.footer-row{
+    padding-bottom: 20px;
+}
+.header-row{
+    padding-bottom: 20px;
+}
+.kacha-bill-menu {
+    height: 48px;
+    width: 100%;
+    background-color: #cdecfc;
+    display: flex;
+}
+
+.kachanbill-centered-text {
+
+    width: 55%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 15px;
+}
+.kachanbill-menu-button{
+    padding-top: 5px;
+    width: 45%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-left: 31%;
+}
+.kachanbill-heading {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.kachanbill-menu-icon-less {
+    background-color:#cdecfc ;
+    border: none;
+    padding-top: 5px;
+
+}
+
+@media (min-width: 320px) and (max-width:480px){
+    .kacha-bill-menu{
+        height: 40px;
+        margin-top: 5px;
+    }
+    .kachanbill-centered-text{
+        width: 100%;
+    }
+    .kachanbill-menu-button{
+        padding-left: 24%;
+    }
+    .kachanbill-heading{
+        font-size: 18px;
+    }
+    .bill-left-col{
+        font-size: 7px;
+        line-height:9px;
+    }
+    .bill-heading{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .bill-left-col1{
+        font-size: 7px;
+        line-height: 10px;
+    }
+    .bill-right-col{
+        font-size: 7px;
+        line-height: 0;
+    }
+    .bill-footer-left{
+        font-size: 7px;
+        line-height: 0px;
+    }
+    .bill-footer-right{
+        font-size: 7px;
+    }
+    .bill-footer-right-section{
+        margin-top: 5px;
+    }
+    .header-row{
+        padding-bottom: 0px;
+        padding-top: 5px;
+    }
+    .kachabill-section{
+        width: 95%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

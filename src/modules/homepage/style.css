@@ -1,0 +1,249 @@
+.mobile-navbar-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.home-navbar {
+    height: 35px;
+    margin-top: 3px;
+}
+
+.home-page {
+    width: 100%;
+}
+
+.home-section {
+    padding-left: 20%;
+}
+
+.home-heading {
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.home-heading-dark {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.home-content {
+    padding-left: 30%;
+}
+
+.home-col {
+    display: flex;
+    justify-content: center;
+}
+
+.icon1-wrapper {
+    width: 100px;
+    height: 100px;
+    background: #D9D9D9;
+    border-radius: 12px;
+}
+
+.icon-wrapper {
+    width: 70px;
+    height: 70px;
+    background: #D9D9D9;
+    border-radius: 12px;
+}
+
+.icon-inner img {
+    Width: 67px;
+    Height: 67px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.icon1 {
+    Width: 95px;
+    Height: 95px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+}
+
+.icon1-name {
+    padding-top: 20px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.icon-name {
+    margin-top: 5px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-col {
+    display: flex;
+    align-items: end;
+    /* padding-left: 25px; */
+}
+
+.icon-col1 {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    /* padding-left: 25px; */
+}
+
+
+.icon-row {
+    padding-bottom: 55px;
+}
+
+.icon-cover {
+    width: 190px;
+    display: flex;
+    justify-content: initial;
+}
+
+.icon-img-row {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.icon-img-row1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    gap: 10px;
+    padding-top: 5px;
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    .home-navbar .menu-items a {
+        /* border: 2px solid red; */
+        color: black;
+        /* border: 1px solid  #DEE2EB; */
+        /* width: 100px; */
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+        gap: 8px;
+        border-left: 1px solid #DEE2EB;
+        font-weight: 700;
+        height: 35px;
+        /* padding-right: 3%; */
+    }
+
+    .home-navbar {
+        border: 1px solid #DEE2EB;
+        border-radius: 5px;
+        height: 35px;
+        margin-left: 3%;
+        margin-right: 3%;
+        /* width: 92.7%; */
+    }
+
+    .home-navbar .menu-items {
+        padding-right: 5%;
+    }
+
+    .home-section {
+        padding-left: 0px;
+        padding-top: 20%;
+    }
+
+    .nav-link.active {
+        background-color: #0B94DA !important;
+        color: white !important;
+        /* border-top-left-radius: 5px;
+        border-bottom-left-radius:5px ; */
+
+    }
+
+    .nav-link1.active {
+        background-color: #0B94DA !important;
+        color: white !important;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .nav-link1 {
+        border-left: 0px solid white !important;
+    }
+
+    .nav-link4.active {
+        background-color: #0B94DA !important;
+        color: white !important;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        width: 100%;
+    }
+
+    .menu-items .menu-icon path.active {
+        fill: white !important;
+    }
+
+    .home-content {
+        padding-left: 8%;
+    }
+    .home-heading{
+        font-size: 25px;
+    }
+    .home-heading-dark{
+        font-size: 25px;
+    }
+    .icon-cover{
+        width: auto;
+    }
+    .icon1-wrapper{
+        width: 65px;
+        height: 65px;
+    }
+    .icon1{
+        width: 60px;
+        height: 60px;
+    }
+    .icons{
+        width: 18px;
+        height: 18px;
+    }
+    .icon-wrapper{
+        width: 45px;
+        height: 45px;
+    }
+    .icon-inner img{
+        width: 42px;
+        height: 42px;
+    }
+    .icon1-name{
+        padding-top: 15px;
+        font-size: 9px;
+    }
+    .icon-col1{
+        justify-content: initial;
+    }
+    .icon-name{
+        font-size: 9px;
+        margin-top: 0px;
+        width: 50px;
+    }
+    .icon-img-row{
+        padding-bottom: 0px;
+    }
+    .icon-row{
+        padding-bottom: 40px;
+    }
+
+}

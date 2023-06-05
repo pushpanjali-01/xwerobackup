@@ -1,0 +1,63 @@
+/* .bar-chart{
+    width: 100% !important;
+    height: 230px !important;
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    .bar-chart{
+        height: 200px;
+    }
+} */
+
+/* BarChart.css */
+/* 
+.chart {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+    padding: 5px;
+  }
+  
+  .bar {
+    background-color: #007bff;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-right: 5px;
+  }
+  
+  .value {
+    position: absolute;
+    top: -20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #007bff;
+  } */
+  .graph-parent {
+    height: 300px; /* set the desired height of the parent div */
+    width: 100%;
+  }
+  
+  .graph-divs {
+    width: 100%;
+    height: 230px;
+  }
+
+
+  
+  .chart-container {
+    width: 100%;
+    height: 100%;
+  }
+  @media (min-width: 320px) and (max-width:480px){
+    .graph-divs {
+      width: 100%;
+      height: 160px;
+    }
+  }
+  
+  
+  
+  

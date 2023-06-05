@@ -1,0 +1,213 @@
+.logo-text {
+    position: relative;
+    font-size: 82px;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    display: block;
+}
+
+.logo-img {
+    width: 51%;
+}
+
+.logo-shadow {
+    margin-top: -31px;
+    width: 51%;
+}
+
+/* .logo-text {
+    display: inline-block;
+    position: relative;
+    color: balck;
+    font-size: 82px;
+} */
+
+.logo-text::after {
+    content: attr(data-content);
+    display: block;
+    position: absolute;
+    bottom: -100%;
+    transform: scaleX(-1);
+}
+
+
+.logo-text::before {
+    content: attr(data-text);
+    /* use the "data-text" attribute to get the original text */
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(-1);
+    /* flip the text horizontally */
+    opacity: 1.5;
+    /* make the mirror text lighter */
+}
+
+.left-section {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-heading {
+    color: #1E1E1E;
+    font-size: 45px;
+    line-height: 72px;
+    font-weight: 600;
+}
+
+.login-subheading {
+    font-size: 22px;
+    opacity: 0.5;
+    font-weight: 500;
+}
+
+/* .login-input input {
+    position: absolute;
+    width: 244px;
+    height: 0px;
+    border: 1px solid #69ACE3;
+
+} */
+
+.login-input {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    /* padding-top: 20px; */
+    padding-bottom: 30px;
+}
+
+.login-desc {
+    font-size: 18px;
+    opacity: 0.6;
+    font-weight: 500;
+}
+
+.login-button {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.login-button button {
+    width: 250px;
+    height: 50px;
+    background: #1E1E1E;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.button-arrow {
+    width: 8px;
+    margin-left: 30px;
+}
+
+.line1 {
+    color: #1E1E1E;
+}
+
+.line2 {
+    color: #3497EB;
+}
+
+.login-info {
+    font-size: 15px;
+}
+
+.input-field {
+    border: none;
+    border-bottom: 2px solid #69ACE3;
+    outline: none;
+    width: 244px;
+}
+
+.logo-text-shadow {
+    position: absolute;
+    top: 72px;
+
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 82px;
+    line-height: 108px;
+
+    color: #1E1E1E;
+
+    opacity: 0.06;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    width: 100%;
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    .login-heading {
+        font-size: 25px;
+        font-weight: 600;
+    }
+.logo-img{
+    width: 70%;
+}
+    .logo-shadow {
+        display: none;
+    }
+
+    .login-page {
+        height: 90vh;
+    }
+
+    .login-subheading {
+        font-size: 20px;
+        font-weight: 500;
+
+    }
+
+    .input-field {
+        width: 307px;
+    }
+
+    .login-desc {
+        font-size: 16px;
+        font-weight: 500;
+
+    }
+
+    .login-button button {
+        width: 320px;
+        border: none;
+    }
+
+    .login-info {
+        font-size: 12px;
+    }
+
+    /* 
+    .right-section {
+        padding-top: 10%;
+    } */
+}
